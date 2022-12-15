@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>HTML DOM Navegación</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.9.1
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="">JS HTML DOM AVANZADO</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html#team2">Inicio</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html#team2">Inicio</a></li>
+          <li>Navegación</li>
+        </ol>
+        <h2>HTML DOM Navegación</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pa/1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pa/2.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pa/3.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pa/4.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pa/5.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/pa/6.png" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+           
+            <div class="portfolio-description">
+              <h2>HTML DOM NAVEGACIÓN</h2>
+              <p>
+                Con <b>HTML DOM</b>, puede navegar por el árbol de nodos utilizando relaciones de nodos.
+
+
+              </p>
+            </div>
+             <div class="portfolio-info">
+              <h3>Métodos que podemos utilizar</h3>
+              <ul>
+                <li><strong><font color="navy">Relaciones de nodo</font></strong>: Los nodos del árbol de nodos tienen una relación jerárquica entre sí.<br>
+                 Los términos padre, hijo y hermano se utilizan para describir las relaciones.<br>
+                 <ol>
+                  <li>En un árbol de nodos, el nodo superior se llama raíz (o nodo raíz)</li>
+                  <li>Cada nodo tiene exactamente un padre, excepto la raíz (que no tiene padre)</li>
+                  <li>Un nodo puede tener varios hijos.</li>
+                  <li>Los hermanos (hermanos o hermanas) son nodos con el mismo padre</li></ol>
+                
+                </li>
+                <li><strong><font color="teal">Navegación entre nodos</font></strong>: 
+                Puede usar las siguientes propiedades de nodo para navegar entre nodos con JavaScript:<br>
+                <ol>
+                <li>parentNode</li>
+                <li>childNodes[nodenumber]</li>
+                <li>firstChild</li>
+                <li>lastChild</li>
+                <li>nextSibling</li>
+                <li>previousSibling</li>
+              </ol>
+                </li>
+                <li><strong><font color="navy">Nodos secundarios y valores de nodo</font></strong>Un error común en el procesamiento de DOM es esperar que un nodo de elemento contenga texto.<br>
+                  <ol>
+                    <li>El nodo del elemento <i><"title"></i> (en el ejemplo) no contiene texto.<br>
+
+Contiene un nodo de texto con el valor <i>"Tutorial DOM"</i>.<br>Se puede acceder al valor del nodo de texto mediante la <i>innerHTML propiedad</i> del nodo
+</li>
+
+                  </ol>
+                </li>
+                <li><strong><font color="teal">Nodos raíz DOM</font></strong>: Hay dos propiedades especiales que permiten el acceso al documento completo:<br>
+                <ol>
+                <li><i>document.body</i>- El cuerpo del documento.</li>
+                <li><i>document.documentElement</i>- El documento completo</li>
+              </ol>
+                </li>
+
+                <li><strong><font color="navy">Propiedad de nodeName</font></strong>
+: La <i>nodeName</i> propiedad especifica el nombre de un nodo.<br>
+                <ol>
+
+                  <li>nodeName es de solo lectura</li>
+                  <li>nodeName de un nodo de elemento es el mismo que el nombre de la etiqueta</li>
+                  <li>nodeName de un nodo de atributo es el nombre del atributo</li>
+                  <li>nodeName de un nodo de texto siempre es #text</li>
+                  <li>nodeName del nodo del documento siempre es #document </li>   
+                  </ol>            </li>
+
+                  <li><strong><font color="teal">Propiedad nodeValue</font></strong>: La nodeValuepropiedad especifica el valor de un nodo.<br>
+                  <ol>
+                <li>nodeValue para nodos de elementos es <i>null</i></li>
+                <li>nodeValue para nodos de texto es el texto mismo</li>
+                <li>nodeValue para los nodos de atributo es el valor del atributo</li>
+              </ol>
+                </li>
+
+
+                  <li><strong><font color="navy">Propiedad de tipo de nodo</font></strong>: La <i>nodeType</i> propiedad es de solo lectura. Devuelve el tipo de un nodo.
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>2022</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
